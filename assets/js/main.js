@@ -61,16 +61,6 @@ const setEducation = (education) => {
     const eduClassData = document.createElement("div");
     eduClassData.className = "edu-class-data";
 
-    const eduStd = document.createElement("span");
-    eduStd.className = "edu-std";
-    eduStd.innerHTML = edu.std;
-    eduClassData.appendChild(eduStd);
-
-    const eduScore = document.createElement("span");
-    eduScore.className = "edu-score";
-    eduScore.innerHTML = edu.score;
-    eduClassData.appendChild(eduScore);
-
     li.appendChild(eduClassData);
 
     ul.appendChild(li);
@@ -139,48 +129,6 @@ const setSkills = (skills) => {
     catSkillItem.appendChild(skillTitle);
     catSkillItem.appendChild(skillValue);
     skillList.appendChild(catSkillItem);
-  });
-};
-
-const setExperience = (experiences) => {
-  const expList = document.querySelector("#experienceList");
-  experiences.forEach((exper) => {
-    const expListItem = document.createElement("li");
-
-    const expItem = document.createElement("div");
-    expItem.className = "exp-item";
-
-    const expOrg = document.createElement("span");
-    expOrg.className = "exp-org";
-    expOrg.innerHTML = exper.organization;
-    expItem.appendChild(expOrg);
-
-    const expTitle = document.createElement("span");
-    expTitle.className = "exp-title";
-    expTitle.innerHTML = `&nbsp- ${exper.title}`;
-
-    const expDura = document.createElement("span");
-    expDura.className = "exp-title";
-    expDura.innerText = `, (${exper.date})`;
-
-    expItem.appendChild(expTitle);
-    expItem.appendChild(expDura);
-    expListItem.appendChild(expItem);
-
-    if (exper.details) {
-      const expDetails = document.createElement("ul");
-      expDetails.className = "expDet";
-
-      exper.details.forEach((dText) => {
-        const detItem = document.createElement("li");
-        detItem.innerHTML = dText;
-        expDetails.appendChild(detItem);
-      });
-
-      expListItem.appendChild(expDetails);
-    }
-
-    expList.appendChild(expListItem);
   });
 };
 
@@ -270,7 +218,6 @@ const setCatagoryHeader = (title) => {
   // Call functions to load profile
   setTitle(profileData);
   setLinks(profileData.links);
-  setExperience(profileData.experiences);
   setProjects(profileData.projects);
   setSkills(profileData.skills);
   setEducation(profileData.education);
