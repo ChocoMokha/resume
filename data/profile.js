@@ -55,8 +55,8 @@ const profileData = {
       <strong>CSS</strong>, and <strong>JavaScript</strong> that attempts to be a better version of the current NV Career tech site.`,
     },
     {
-      title: "WhiteBoard",
-      duration: "Jun - Aug 2017",
+      title: "Game Day Grill",
+      duration: "Jan 2024",
       link: "https://github.com/Gavinmack123/Website-Design-Team-Project",
       desc: `A restaurant <strong>website for The BPA competition</strong>.
       The site includes a simple <strong>online ordering system</strong>
