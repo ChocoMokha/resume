@@ -75,27 +75,27 @@ const profileData = {
   certifications: [
     {
       desc: `<strong>CompTIA ITF+</strong> issued by <strong>CompTIA</strong>.`,
-      date: "May - Nov 2018",
+      date: "May 2024",
     },
     {
       desc: `<strong>Html and CSS</strong> issued by <strong>Certiport</strong>.`,
-      date: "May - Nov 2018",
+      date: "May 2024",
     },
     {
       desc: `<strong>Unity Certified User: Programmer</strong> issued by <strong>Certiport</strong>.`,
-      date: "May - Nov 2018",
+      date: "May 2024",
     },
     {
       desc: `<strong>IT Specialist - JavaScript</strong> issued by <strong>Certiport</strong>.`,
-      date: "May - Nov 2018",
+      date: "May 2024",
     },
     {
       desc: `<strong>IT Specialist - Network Security</strong> issued by <strong>Certiport</strong>.`,
-      date: "May - Nov 2018",
+      date: "May 2024",
     },
     {
       desc: `<strong>IT Specialist - Computational Thinking</strong> issued by <strong>Certiport</strong>.`,
-      date: "May - Nov 2018",
+      date: "May 2024",
     },
   ],
   events: [],
