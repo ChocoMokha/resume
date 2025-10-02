@@ -3,7 +3,7 @@ const profileData = {
   name: "Sam Tuvell",
   sub_title: "Web Design/It",
   about: {
-    intro: `Web Developer with 3 years of classroom experience. Strong in Front-end development and IT troubleshooting. Experienced in team projects and creating reusable components and templates. Skilled in cross-platform compatibility, and responsive design. Working towards transitioning my skills to a customer service or cashier focused role.`,
+    intro: `Web Developer with 3 years of classroom experience. Strong in Front-end development and IT troubleshooting. Experienced in team projects and creating reusable components and templates. Skilled in cross-platform compatibility, problem solving, teamwork, and responsive design. Working towards transitioning my skills to a customer service or cashier focused role.`,
     contact: {
       email: "SamuelTuvell@gmail.com",
       phone: "419-276-4384",
@@ -33,6 +33,10 @@ const profileData = {
     },
   ],
   skills: [
+    {
+      title: "Soft Skills",
+      value: "Problem Solving, Teamwork, Coordination, Team leading, Problem Solving, Organization",
+    },
     {
       title: "Languages",
       value: "HTML5, CSS, C#, JavaScript",
